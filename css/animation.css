@@ -1,0 +1,21 @@
+/* ani1은 왼쪽에서 오른쪽으로 나타나는 애니메이션 */
+.ani1{
+    transform: translateX(-20px);
+    transition: all 0.7s ease 0s;
+    opacity: 0;
+}
+.ani1.on{
+    transform: translateX(0);
+    opacity: 1;
+}
+/* ani2는 제자리에서 뿅 나오는 애니메이션 */
+.ani2{
+    opacity: 0;
+    transition: all 0.5s ease 0s;
+    transform: scale(0.8);
+
+}
+.ani2.on{
+    opacity: 1;
+    transform: scale(1);
+}
