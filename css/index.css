@@ -20,7 +20,7 @@ p{
     height: 100vh;
     min-height: 700px;
     background:
-    linear-gradient(rgba(0, 0, 0, 0.801) 10%,rgba(0, 0, 0, 0.555) 50%,rgba(0, 0, 0, 0.801) 90%),
+    linear-gradient(rgba(49, 49, 49, 0.123) 10%,rgba(41, 41, 41, 0.555) 50%,rgba(49, 49, 49, 0.801) 90%),
     url(../img/hero-banner.jpg) no-repeat 50% 50% / cover;
     color: #fff;
     display: flex;
