@@ -508,14 +508,14 @@ p{
     font-weight: 700;
     margin-bottom: 1.5rem;
 }
-.project-sticky{
+.project-sticky {
     display: flex;
     justify-content: center;
     gap: 1rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
     position: sticky;
-    top: 1rem;
+    top: 1.5rem;
     font-weight: 500;
 }
 .project-sticky a{
